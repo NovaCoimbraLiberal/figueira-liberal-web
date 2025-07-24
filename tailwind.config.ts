@@ -18,6 +18,17 @@ export default {
 			}
 		},
 		extend: {
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-subtle': 'var(--gradient-subtle)'
+			},
+			boxShadow: {
+				'elegant': 'var(--shadow-elegant)',
+				'glow': 'var(--shadow-glow)'
+			},
+			transitionProperty: {
+				'smooth': 'var(--transition-smooth)'
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -26,7 +37,13 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
+				},
+				liberal: {
+					blue: 'hsl(var(--liberal-blue))',
+					light: 'hsl(var(--liberal-light))',
+					bright: 'hsl(var(--liberal-bright))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
