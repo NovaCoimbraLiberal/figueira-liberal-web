@@ -19,5 +19,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: 'NovaCoimbraLiberal.github.io'
+  base: '/NovaCoimbraLiberal.github.io/'
 }));
