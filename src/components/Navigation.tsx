@@ -26,7 +26,7 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="bg-gradient-hero p-2 rounded-lg shadow-elegant">
-              <img src="/src/assets/logo-il.svg" alt="Iniciativa Liberal" className="h-6 w-auto" />
+              <img src="/src/assets/logo-il.svg" alt="Iniciativa Liberal" className="h-8 w-8 object-contain" />
             </div>
             <div className="hidden sm:block">
               <h2 className="font-bold text-lg text-foreground">Iniciativa Liberal</h2>
