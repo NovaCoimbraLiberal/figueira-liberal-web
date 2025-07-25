@@ -19,5 +19,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/', // Corrected base path with leading and trailing slashes
+  base: '/novacoimbraliberal.github.io/', // Corrected base path with leading and trailing slashes
 }));
