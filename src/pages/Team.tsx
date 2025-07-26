@@ -65,7 +65,7 @@ const Team = () => {
             A Nossa Equipa
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            Conhece as pessoas comprometidas em construir uma Figueira da Foz mais livre, 
+            Conhecem as pessoas comprometidas em construir uma Figueira da Foz mais livre, 
             próspera e com oportunidades para todos.
           </p>
           
@@ -129,7 +129,7 @@ const Team = () => {
         {/* Join Us Section */}
         <div className="mt-16 text-center bg-gradient-subtle rounded-xl p-8 shadow-elegant">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-            Quer Juntar-se à Nossa Equipa?
+            Querem Juntar-se à Nossa Equipa?
           </h2>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
             Estamos sempre à procura de pessoas comprometidas com os valores liberais 
@@ -137,7 +137,7 @@ const Team = () => {
           </p>
           <Button size="lg" asChild className="shadow-elegant">
             <a href="mailto:figueiradafoz@iniciativaliberal.pt">
-              Contactar-nos
+              Contactarem-nos
               <Mail className="ml-2 h-5 w-5" />
             </a>
           </Button>

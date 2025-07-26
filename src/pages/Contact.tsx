@@ -21,7 +21,7 @@ const Contact = () => {
     // Here you would typically send the form data to your backend
     toast({
       title: "Mensagem enviada!",
-      description: "Obrigado pelo seu contacto. Responderemos brevemente.",
+      description: "Obrigado pelo contacto. Responderemos em breve.",
     });
     setFormData({ name: "", email: "", subject: "", message: "" });
   };
@@ -42,8 +42,8 @@ const Contact = () => {
             Contacto
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Estamos aqui para o ouvir. Entre em contacto connosco para saber mais sobre 
-            as nossas propostas ou para se juntar ao nosso movimento em Figueira da Foz.
+            Estamos aqui para vos ouvir. Entrem em contacto connosco para saber mais sobre 
+            as nossas propostas ou para se juntarem ao nosso movimento em Figueira da Foz.
           </p>
         </div>
 
@@ -53,7 +53,7 @@ const Contact = () => {
             <CardHeader>
               <CardTitle className="text-2xl">Envie-nos uma Mensagem</CardTitle>
               <CardDescription>
-                Preencha o formulário abaixo e entraremos em contacto consigo.
+                Preencham o formulário abaixo e entraremos em contacto convosco.
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -67,7 +67,7 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      placeholder="O seu nome"
+                      placeholder="Vosso nome"
                     />
                   </div>
                   <div className="space-y-2">
@@ -79,7 +79,7 @@ const Contact = () => {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      placeholder="o.seu.email@exemplo.com"
+                      placeholder="vosso.email@exemplo.com"
                     />
                   </div>
                 </div>
@@ -91,7 +91,7 @@ const Contact = () => {
                     name="subject"
                     value={formData.subject}
                     onChange={handleChange}
-                    placeholder="Assunto da sua mensagem"
+                    placeholder="Assunto da vossa mensagem"
                   />
                 </div>
                 
@@ -103,7 +103,7 @@ const Contact = () => {
                     value={formData.message}
                     onChange={handleChange}
                     required
-                    placeholder="Escreva aqui a sua mensagem..."
+                    placeholder="Escrevam aqui a vossa mensagem..."
                     rows={6}
                   />
                 </div>
@@ -121,9 +121,9 @@ const Contact = () => {
             {/* Direct Contact */}
             <Card className="shadow-elegant">
               <CardHeader>
-                <CardTitle className="text-2xl">Contacto Direto</CardTitle>
+                <CardTitle className="text-2xl">Contacto Directo</CardTitle>
                 <CardDescription>
-                  Entre em contacto diretamente através dos nossos canais.
+                  Entrem em contacto directamente através dos nossos canais.
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -145,7 +145,7 @@ const Contact = () => {
               <CardHeader>
                 <CardTitle className="text-2xl">Redes Sociais</CardTitle>
                 <CardDescription>
-                  Siga-nos nas redes sociais para se manter atualizado.
+                  Sigam-nos nas redes sociais para se manterem actualizados.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -175,19 +175,19 @@ const Contact = () => {
             {/* Join Us */}
             <Card className="bg-gradient-subtle shadow-elegant">
               <CardHeader>
-                <CardTitle className="text-2xl">Juntar-se a Nós</CardTitle>
+                <CardTitle className="text-2xl">Juntarem-se a Nós</CardTitle>
                 <CardDescription>
-                  Interessado em ser voluntário ou membro da nossa equipa?
+                  Interessados em ser voluntários ou membros da nossa equipa?
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
                   Procuramos pessoas comprometidas com os valores liberais e o desenvolvimento 
-                  de Figueira da Foz. Se quer fazer a diferença, contacte-nos!
+                  de Figueira da Foz. Se querem fazer a diferença, contactem-nos!
                 </p>
                 <Button size="lg" asChild className="w-full shadow-elegant">
                   <a href="mailto:figueiradafoz@iniciativaliberal.pt?subject=Voluntariado">
-                    Quero Ser Voluntário
+                    Quero Ser Voluntário(a)
                     <Mail className="ml-2 h-5 w-5" />
                   </a>
                 </Button>

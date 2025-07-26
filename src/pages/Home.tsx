@@ -50,12 +50,12 @@ const Home = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" asChild className="shadow-glow">
               <Link to="/program">
-                Ver Programa Político
+                Verem Programa Político
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild className="bg-background/10 backdrop-blur border-primary-foreground/30 text-primary-foreground hover:bg-background/20">
-              <Link to="/team">Conhecer a Equipa</Link>
+              <Link to="/team">Conhecerem a Equipa</Link>
             </Button>
           </div>
         </div>
@@ -100,21 +100,21 @@ const Home = () => {
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Junte-se a Nós
+            Juntarem-se a Nós
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Faça parte da mudança em Figueira da Foz. Juntos podemos construir 
+            Façam parte da mudança em Figueira da Foz. Juntos podemos construir 
             uma cidade mais livre e próspera.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild className="shadow-elegant">
               <Link to="/contact">
-                Entrar em Contacto
+                Entrarem em Contacto
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link to="/team">Saber Mais</Link>
+              <Link to="/team">Saberem Mais</Link>
             </Button>
           </div>
         </div>
