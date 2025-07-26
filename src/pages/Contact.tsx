@@ -137,41 +137,6 @@ const Contact = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-center space-x-4">
-                  <div className="bg-gradient-hero p-3 rounded-full">
-                    <Phone className="h-5 w-5 text-primary-foreground" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground">Telefone</h4>
-                    <p className="text-muted-foreground">+351 233 XXX XXX</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center space-x-4">
-                  <div className="bg-gradient-hero p-3 rounded-full">
-                    <MapPin className="h-5 w-5 text-primary-foreground" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground">Morada</h4>
-                    <p className="text-muted-foreground">
-                      Rua Principal, 123<br />
-                      3080-XXX Figueira da Foz
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center space-x-4">
-                  <div className="bg-gradient-hero p-3 rounded-full">
-                    <Clock className="h-5 w-5 text-primary-foreground" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground">Horário de Atendimento</h4>
-                    <p className="text-muted-foreground">
-                      Segunda a Sexta: 14h00 - 18h00<br />
-                      Sábado: 10h00 - 13h00
-                    </p>
-                  </div>
-                </div>
               </CardContent>
             </Card>
 
@@ -186,13 +151,13 @@ const Contact = () => {
               <CardContent>
                 <div className="flex space-x-4">
                   <Button variant="outline" size="lg" asChild className="flex-1">
-                    <a href="#" aria-label="Facebook">
+                    <a href="https://www.facebook.com/profile.php?id=61576707222189" aria-label="Facebook">
                       <Facebook className="h-5 w-5 mr-2" />
                       Facebook
                     </a>
                   </Button>
                   <Button variant="outline" size="lg" asChild className="flex-1">
-                    <a href="#" aria-label="Instagram">
+                    <a href="https://www.instagram.com/figueiradafozliberal/" aria-label="Instagram">
                       <Instagram className="h-5 w-5 mr-2" />
                       Instagram
                     </a>

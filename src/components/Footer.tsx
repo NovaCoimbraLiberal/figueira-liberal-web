@@ -30,14 +30,6 @@ const Footer = () => {
                 <Mail className="h-4 w-4" />
                 <span>figueiradafoz@iniciativaliberal.pt</span>
               </div>
-              <div className="flex items-center space-x-2 text-muted-foreground">
-                <Phone className="h-4 w-4" />
-                <span>+351 233 XXX XXX</span>
-              </div>
-              <div className="flex items-center space-x-2 text-muted-foreground">
-                <MapPin className="h-4 w-4" />
-                <span>Figueira da Foz, Portugal</span>
-              </div>
             </div>
           </div>
 
@@ -46,12 +38,12 @@ const Footer = () => {
             <h4 className="font-semibold text-foreground mb-4">Redes Sociais</h4>
             <div className="flex space-x-3">
               <Button variant="outline" size="sm" asChild>
-                <a href="#" aria-label="Facebook">
+                <a href="https://www.facebook.com/profile.php?id=61576707222189" aria-label="Facebook">
                   <Facebook className="h-4 w-4" />
                 </a>
               </Button>
               <Button variant="outline" size="sm" asChild>
-                <a href="#" aria-label="Instagram">
+                <a href="https://www.instagram.com/figueiradafozliberal/" aria-label="Instagram">
                   <Instagram className="h-4 w-4" />
                 </a>
               </Button>
