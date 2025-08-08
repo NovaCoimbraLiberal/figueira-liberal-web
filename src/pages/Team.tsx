@@ -94,15 +94,8 @@ const Team = () => {
       description: "Professora universitária especializada em ciência política e governação local.",
       expertise: ["Ciência Política", "Governação Local", "Participação Cidadã"],
       email: "ana.sousa@iniciativaliberal.pt",
-      linkedin: "#"
-    },
-    {
-      name: "João Martins",
-      role: "Candidato à Assembleia Municipal",
-      description: "Empresário local comprometido com a transparência e fiscalização municipal.",
-      expertise: ["Empreendedorismo", "Fiscalização", "Transparência"],
-      email: "joao.martins@iniciativaliberal.pt",
-      linkedin: "#"
+      linkedin: "#",
+      photo: "/placeholder.svg"
     }
   ];
 
@@ -121,10 +114,10 @@ const Team = () => {
         </div>
 
         {/* Tabs */}
-        <Tabs defaultValue="coordenacao" className="w-full">
+        <Tabs defaultValue="autarquicas" className="w-full">
           <TabsList className="grid w-full grid-cols-2 mb-8">
-            <TabsTrigger value="coordenacao">Coordenação</TabsTrigger>
             <TabsTrigger value="autarquicas">Autárquicas</TabsTrigger>
+            <TabsTrigger value="coordenacao">Coordenação</TabsTrigger>
           </TabsList>
 
           <TabsContent value="coordenacao">
@@ -263,19 +256,22 @@ const Team = () => {
                 <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
                   Candidatos à Assembleia Municipal
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                  {assemblyMembers.map((member, index) => (
-                    <Card key={index} className="shadow-elegant hover:shadow-glow transition-all duration-300">
-                      <CardHeader>
-                        <div className="flex items-center justify-between">
-                          <div>
-                            <CardTitle className="text-xl">{member.name}</CardTitle>
-                            <CardDescription className="text-primary font-medium">
-                              {member.role}
-                            </CardDescription>
-                          </div>
-                        </div>
-                      </CardHeader>
+                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                   {assemblyMembers.map((member, index) => (
+                     <Card key={index} className="shadow-elegant hover:shadow-glow transition-all duration-300">
+                       <CardHeader className="text-center">
+                         <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-muted">
+                           <img 
+                             src={member.photo} 
+                             alt={member.name}
+                             className="w-full h-full object-cover"
+                           />
+                         </div>
+                         <CardTitle className="text-xl">{member.name}</CardTitle>
+                         <CardDescription className="text-primary font-medium">
+                           {member.role}
+                         </CardDescription>
+                       </CardHeader>
                       <CardContent className="space-y-4">
                         <p className="text-muted-foreground">
                           {member.description}
