@@ -5,69 +5,9 @@ import { Building, Briefcase, GraduationCap, Heart, Leaf, Users, Home, Car, Wifi
 const Program = () => {
   const programAreas = [
     {
-      icon: <Briefcase className="h-6 w-6" />,
-      title: "Economia e Empreendedorismo",
-      priority: "Alta",
-      measures: [
-        "Simplificação de licenciamentos para empresas locais",
-        "Criação de um balcão único digital para serviços municipais",
-        "Incentivos fiscais para startups e PMEs",
-        "Programa de mentoria para jovens empreendedores",
-        "Redução da burocracia municipal em 50%"
-      ]
-    },
-    {
-      icon: <Building className="h-6 w-6" />,
-      title: "Habitação e Urbanismo",
-      priority: "Alta",
-      measures: [
-        "Liberalização de terrenos para construção habitacional",
-        "Programa municipal de arrendamento jovem",
-        "Revitalização do centro histórico",
-        "Criação de espaços de coworking municipais",
-        "Melhoria da eficiência energética dos edifícios públicos"
-      ]
-    },
-    {
-      icon: <Car className="h-6 w-6" />,
-      title: "Mobilidade e Transportes",
-      priority: "Média",
-      measures: [
-        "Expansão da rede de ciclovias",
-        "Melhoria dos transportes públicos urbanos",
-        "Criação de mais estacionamento gratuito",
-        "Implementação de sistema de partilha de bicicletas",
-        "Otimização dos semáforos com tecnologia inteligente"
-      ]
-    },
-    {
-      icon: <GraduationCap className="h-6 w-6" />,
-      title: "Educação e Formação",
-      priority: "Alta",
-      measures: [
-        "Autonomia das escolas na gestão de recursos",
-        "Programa de formação digital para seniores",
-        "Parcerias com universidades para estágios locais",
-        "Criação de um centro de formação profissional",
-        "Bolsas de estudo para estudantes carenciados"
-      ]
-    },
-    {
-      icon: <Heart className="h-6 w-6" />,
-      title: "Saúde e Bem-estar",
-      priority: "Alta",
-      measures: [
-        "Criação de mais equipamentos desportivos públicos",
-        "Programa municipal de prevenção da saúde",
-        "Melhoria dos cuidados de saúde primários",
-        "Apoio a lares de idosos privados",
-        "Criação de espaços verdes terapêuticos"
-      ]
-    },
-    {
       icon: <Leaf className="h-6 w-6" />,
       title: "Ambiente e Sustentabilidade",
-      priority: "Média",
+      priority: "Alta",
       measures: [
         "Programa de energia solar em edifícios públicos",
         "Expansão da recolha seletiva de resíduos",
@@ -77,39 +17,75 @@ const Program = () => {
       ]
     },
     {
-      icon: <Users className="h-6 w-6" />,
-      title: "Cultura e Turismo",
-      priority: "Média",
+      icon: <Car className="h-6 w-6" />,
+      title: "Mobilidade e Urbanismo",
+      priority: "Alta",
       measures: [
-        "Festival anual de inovação e tecnologia",
-        "Promoção do turismo de natureza",
-        "Valorização do património histórico local",
-        "Apoio a iniciativas culturais privadas",
-        "Criação de rotas turísticas temáticas"
+        "Expansão da rede de ciclovias",
+        "Melhoria dos transportes públicos urbanos",
+        "Revitalização do centro histórico",
+        "Implementação de sistema de partilha de bicicletas",
+        "Otimização dos semáforos com tecnologia inteligente"
+      ]
+    },
+    {
+      icon: <Briefcase className="h-6 w-6" />,
+      title: "Desenvolvimento Económico e Emprego",
+      priority: "Alta",
+      measures: [
+        "Simplificação de licenciamentos para empresas locais",
+        "Criação de um balcão único digital para serviços empresariais",
+        "Incentivos fiscais para startups e PMEs",
+        "Programa de mentoria para jovens empreendedores",
+        "Apoio à criação de postos de trabalho locais"
       ]
     },
     {
       icon: <Wifi className="h-6 w-6" />,
-      title: "Modernização Digital",
+      title: "Transparência e Digitalização",
       priority: "Alta",
       measures: [
-        "WiFi gratuito em espaços públicos",
+        "Portal da transparência municipal com dados abertos",
         "Digitalização completa dos serviços municipais",
-        "Portal da transparência municipal",
+        "WiFi gratuito em espaços públicos",
         "App municipal para cidadãos",
-        "Programa de literacia digital"
+        "Orçamento participativo digital"
       ]
     },
     {
-      icon: <Shield className="h-6 w-6" />,
-      title: "Segurança e Proteção Civil",
+      icon: <Building className="h-6 w-6" />,
+      title: "Ordenamento e Território",
       priority: "Média",
       measures: [
-        "Modernização dos equipamentos de bombeiros",
-        "Sistema de videovigilância inteligente",
-        "Programa de segurança escolar",
-        "Melhoria da iluminação pública",
-        "Plano municipal de emergência atualizado"
+        "Liberalização de terrenos para construção habitacional",
+        "Programa municipal de arrendamento jovem",
+        "Planeamento urbano sustentável",
+        "Melhoria da eficiência energética dos edifícios públicos",
+        "Criação de espaços de coworking municipais"
+      ]
+    },
+    {
+      icon: <GraduationCap className="h-6 w-6" />,
+      title: "Educação e Juventude",
+      priority: "Média",
+      measures: [
+        "Autonomia das escolas na gestão de recursos",
+        "Programa de formação digital para jovens",
+        "Parcerias com universidades para estágios locais",
+        "Criação de espaços de estudo e coworking para estudantes",
+        "Bolsas de estudo para estudantes carenciados"
+      ]
+    },
+    {
+      icon: <Users className="h-6 w-6" />,
+      title: "Turismo Sustentável",
+      priority: "Média",
+      measures: [
+        "Promoção do turismo de natureza responsável",
+        "Valorização do património histórico local",
+        "Criação de rotas turísticas sustentáveis",
+        "Apoio ao turismo gastronómico local",
+        "Desenvolvimento de infraestruturas turísticas eco-friendly"
       ]
     }
   ];
