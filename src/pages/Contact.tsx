@@ -1,37 +1,8 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
 import { Mail, Phone, MapPin, Clock, Facebook, Instagram, Twitter, Send } from "lucide-react";
-import { useState } from "react";
-import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: ""
-  });
-  const { toast } = useToast();
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Here you would typically send the form data to your backend
-    toast({
-      title: "Mensagem enviada!",
-      description: "Obrigado pelo contacto. Responderemos em breve.",
-    });
-    setFormData({ name: "", email: "", subject: "", message: "" });
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
 
   return (
     <div className="min-h-screen py-16">
@@ -48,7 +19,7 @@ const Contact = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
+          {/* Microsoft Forms Widget */}
           <Card className="shadow-elegant">
             <CardHeader>
               <CardTitle className="text-2xl">Envie-nos uma Mensagem</CardTitle>
@@ -57,62 +28,23 @@ const Contact = () => {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="space-y-2">
-                    <Label htmlFor="name">Nome *</Label>
-                    <Input
-                      id="name"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      required
-                      placeholder="Vosso nome"
-                    />
-                  </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="email">Email *</Label>
-                    <Input
-                      id="email"
-                      name="email"
-                      type="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      required
-                      placeholder="vosso.email@exemplo.com"
-                    />
-                  </div>
-                </div>
-                
-                <div className="space-y-2">
-                  <Label htmlFor="subject">Assunto</Label>
-                  <Input
-                    id="subject"
-                    name="subject"
-                    value={formData.subject}
-                    onChange={handleChange}
-                    placeholder="Assunto da vossa mensagem"
-                  />
-                </div>
-                
-                <div className="space-y-2">
-                  <Label htmlFor="message">Mensagem *</Label>
-                  <Textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                    placeholder="Escrevam aqui a vossa mensagem..."
-                    rows={6}
-                  />
-                </div>
-                
-                <Button type="submit" size="lg" className="w-full shadow-elegant">
-                  Enviar Mensagem
-                  <Send className="ml-2 h-5 w-5" />
-                </Button>
-              </form>
+              <div className="w-full h-[600px] rounded-lg overflow-hidden">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  marginHeight={0}
+                  marginWidth={0}
+                  src="https://forms.office.com/Pages/ResponsePage.aspx?id=YOUR_FORM_ID_HERE"
+                  title="Formulário de Contacto"
+                  className="border-0"
+                >
+                  A carregar...
+                </iframe>
+              </div>
+              <p className="text-sm text-muted-foreground mt-4 text-center">
+                Substitua YOUR_FORM_ID_HERE pelo URL do vosso Microsoft Forms
+              </p>
             </CardContent>
           </Card>
 
