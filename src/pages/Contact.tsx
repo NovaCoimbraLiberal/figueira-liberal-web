@@ -65,7 +65,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">Email</h4>
-                    <p className="text-muted-foreground">figueiradafoz@iniciativaliberal.pt</p>
+                    <p className="text-muted-foreground">figueiradafoz@liberal.pt</p>
                   </div>
                 </div>
                 
@@ -118,7 +118,7 @@ const Contact = () => {
                   de Figueira da Foz. Se querem fazer a diferença, contactem-nos!
                 </p>
                 <Button size="lg" asChild className="w-full shadow-elegant">
-                  <a href="mailto:figueiradafoz@iniciativaliberal.pt?subject=Voluntariado">
+                  <a href="mailto:figueiradafoz@liberal.pt?subject=Voluntariado">
                     Quero Ser Voluntário(a)
                     <Mail className="ml-2 h-5 w-5" />
                   </a>

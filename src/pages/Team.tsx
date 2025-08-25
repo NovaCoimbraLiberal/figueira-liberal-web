@@ -187,7 +187,7 @@ const Team = () => {
                 e interessadas em contribuir para o desenvolvimento de Figueira da Foz.
               </p>
               <Button size="lg" asChild className="shadow-elegant">
-                <a href="mailto:figueiradafoz@iniciativaliberal.pt">
+                <a href="mailto:figueiradafoz@liberal.pt">
                   Contactai-nos
                   <Mail className="ml-2 h-5 w-5" />
                 </a>

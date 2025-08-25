@@ -28,7 +28,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2 text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span>figueiradafoz@iniciativaliberal.pt</span>
+                <span>figueiradafoz@liberal.pt</span>
               </div>
             </div>
           </div>
