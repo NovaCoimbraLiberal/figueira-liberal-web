@@ -133,10 +133,33 @@ const Program = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Programa Político
           </h1>
-          <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-8">
+          <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-12">
             O nosso compromisso com Figueira da Foz baseia-se numa visão liberal que promove 
             a liberdade individual, a responsabilidade pessoal e o desenvolvimento económico sustentável.
           </p>
+          
+          {/* Billboard Image */}
+          <div className="mb-16">
+            <div className="max-w-6xl mx-auto">
+              <div className="relative aspect-[3/1] rounded-xl overflow-hidden shadow-elegant">
+                <div className="absolute inset-0 bg-gradient-hero flex items-center justify-center">
+                  <div className="text-center text-primary-foreground">
+                    <div className="text-2xl md:text-4xl font-bold mb-2">FIGUEIRA DA FOZ</div>
+                    <div className="text-lg md:text-2xl">PROGRAMA POLÍTICO</div>
+                    <div className="text-sm md:text-lg mt-2 opacity-90">Iniciativa Liberal</div>
+                  </div>
+                </div>
+                <img 
+                  src="/placeholder.svg" 
+                  alt="Imagem do programa político para cartazes"
+                  className="w-full h-full object-cover opacity-30"
+                />
+              </div>
+              <p className="text-sm text-muted-foreground text-center mt-2">
+                Imagem para cartazes - substitua por imagem final
+              </p>
+            </div>
+          </div>
           
           {/* Vision Statement */}
           <div className="bg-gradient-subtle rounded-xl p-8 shadow-elegant max-w-4xl mx-auto">
