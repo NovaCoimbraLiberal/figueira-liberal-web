@@ -206,50 +206,6 @@ const Program = () => {
             </Card>
           ))}
         </div>
-
-        {/* Principles Section */}
-        <div className="mt-16">
-          <h2 className="text-3xl font-bold text-foreground text-center mb-8">
-            Princípios Orientadores
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="text-center shadow-elegant">
-              <CardHeader>
-                <CardTitle className="text-liberal-blue">Transparência</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  Todas as decisões municipais serão tomadas de forma transparente, 
-                  com acesso público à informação e prestação de contas regular.
-                </CardDescription>
-              </CardContent>
-            </Card>
-            
-            <Card className="text-center shadow-elegant">
-              <CardHeader>
-                <CardTitle className="text-liberal-blue">Eficiência</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  Otimização dos recursos públicos, eliminação da burocracia desnecessária 
-                  e foco nos resultados que beneficiam os cidadãos.
-                </CardDescription>
-              </CardContent>
-            </Card>
-            
-            <Card className="text-center shadow-elegant">
-              <CardHeader>
-                <CardTitle className="text-liberal-blue">Participação</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  Envolvimento ativo dos cidadãos nas decisões que afetam a cidade, 
-                  através de consultas públicas e plataformas de participação.
-                </CardDescription>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
       </div>
     </div>
   );
