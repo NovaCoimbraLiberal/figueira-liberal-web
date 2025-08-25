@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowRight, Users, Target, Heart, Lightbulb } from "lucide-react";
+import { ArrowRight, Users, Target, Heart, Lightbulb, Calendar, MapPin, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-figueira.jpg";
 
@@ -93,6 +93,53 @@ const Home = () => {
               </Card>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Upcoming Events Section */}
+      <section className="py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              Próximos Eventos
+            </h2>
+            <p className="text-xl text-muted-foreground">
+              Não percam os nossos próximos eventos e iniciativas em Figueira da Foz.
+            </p>
+          </div>
+
+          <Card className="shadow-elegant hover:shadow-glow transition-all duration-300 max-w-2xl mx-auto">
+            <CardHeader>
+              <div className="flex items-center justify-center mb-4">
+                <div className="bg-gradient-hero p-3 rounded-full">
+                  <Calendar className="h-6 w-6 text-primary-foreground" />
+                </div>
+              </div>
+              <CardTitle className="text-center text-2xl">
+                Apresentação do Programa Eleitoral e dos Candidatos
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="flex items-center justify-center space-x-6 text-muted-foreground">
+                <div className="flex items-center space-x-2">
+                  <Calendar className="h-4 w-4" />
+                  <span>6 de Setembro</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <Clock className="h-4 w-4" />
+                  <span>19:00</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <MapPin className="h-4 w-4" />
+                  <span>Figueira da Foz</span>
+                </div>
+              </div>
+              <CardDescription className="text-center text-base">
+                Venham conhecer as nossas propostas para Figueira da Foz e os candidatos 
+                que irão representar a Iniciativa Liberal nas próximas eleições.
+              </CardDescription>
+            </CardContent>
+          </Card>
         </div>
       </section>
 
