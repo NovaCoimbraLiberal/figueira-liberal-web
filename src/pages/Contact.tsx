@@ -105,7 +105,7 @@ const Contact = () => {
             </Card>
 
             {/* Join Us */}
-            <Card className="bg-gradient-subtle shadow-elegant">
+            <Card className="bg-gradient-subtle shadow-elegant overflow-hidden">
               <CardHeader>
                 <CardTitle className="text-2xl">Junta-te a Nós</CardTitle>
                 <CardDescription>
@@ -113,6 +113,13 @@ const Contact = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent>
+                <div className="mb-6">
+                  <img 
+                    src="/lovable-uploads/688e1bcf-397f-4923-b6f1-4c7ec13e5850.png" 
+                    alt="Mais Liberdade Social, Política e Económica - Iniciativa Liberal"
+                    className="w-full h-auto rounded-lg"
+                  />
+                </div>
                 <p className="text-muted-foreground mb-4">
                   Procuramos pessoas comprometidas com os valores liberais e o desenvolvimento 
                   da Figueira da Foz. Se querem fazer a diferença, junta-te a nós!
