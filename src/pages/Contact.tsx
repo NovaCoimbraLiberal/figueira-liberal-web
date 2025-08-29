@@ -14,7 +14,7 @@ const Contact = () => {
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Estamos aqui para vos ouvir. Entrem em contacto connosco para saber mais sobre 
-            as nossas propostas ou para se juntarem ao nosso movimento em Figueira da Foz.
+            as nossas propostas ou para se juntarem ao nosso movimento na Figueira da Foz.
           </p>
         </div>
 
@@ -24,7 +24,7 @@ const Contact = () => {
             <CardHeader>
               <CardTitle className="text-2xl">Envie-nos uma Mensagem</CardTitle>
               <CardDescription>
-                Preencham o formulário abaixo e entraremos em contacto convosco.
+                Este formulário pode ser totalmente anónimo. Queremos as vossas perguntas, sugestões e feedback!
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -95,7 +95,7 @@ const Contact = () => {
                     </a>
                   </Button>
                   <Button variant="outline" size="lg" asChild className="flex-1">
-                    <a href="#" aria-label="Twitter">
+                    <a href="https://x.com/JoHei13" aria-label="Twitter">
                       <Twitter className="h-5 w-5 mr-2" />
                       Twitter
                     </a>
@@ -107,19 +107,19 @@ const Contact = () => {
             {/* Join Us */}
             <Card className="bg-gradient-subtle shadow-elegant">
               <CardHeader>
-                <CardTitle className="text-2xl">Juntarem-se a Nós</CardTitle>
+                <CardTitle className="text-2xl">Junta-te a Nós</CardTitle>
                 <CardDescription>
-                  Interessados em ser voluntários ou membros da nossa equipa?
+                  Interessados em serem membros da Iniciativa Liberal?
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
                   Procuramos pessoas comprometidas com os valores liberais e o desenvolvimento 
-                  de Figueira da Foz. Se querem fazer a diferença, contactem-nos!
+                  da Figueira da Foz. Se querem fazer a diferença, junta-te a nós!
                 </p>
                 <Button size="lg" asChild className="w-full shadow-elegant">
-                  <a href="mailto:figueiradafoz@liberal.pt?subject=Voluntariado">
-                    Quero Ser Voluntário(a)
+                  <a href="https://www.liberal.pt/adere">
+                    Aderir
                     <Mail className="ml-2 h-5 w-5" />
                   </a>
                 </Button>

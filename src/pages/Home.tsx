@@ -9,12 +9,12 @@ const Home = () => {
     {
       icon: <Lightbulb className="h-6 w-6" />,
       title: "Liberdade Económica",
-      description: "Promovendo o empreendedorismo e a livre iniciativa para um crescimento sustentável."
+      description: "Promover o empreendedorismo e a livre iniciativa para um crescimento sustentável."
     },
     {
       icon: <Heart className="h-6 w-6" />,
       title: "Liberdade Social",
-      description: "Defendendo os direitos individuais e a igualdade de oportunidades para todos."
+      description: "Defender os direitos individuais e a igualdade de oportunidades para todos."
     },
     {
       icon: <Users className="h-6 w-6" />,
@@ -24,7 +24,7 @@ const Home = () => {
     {
       icon: <Target className="h-6 w-6" />,
       title: "Foco Local",
-      description: "Soluções adaptadas às necessidades específicas de Figueira da Foz."
+      description: "Soluções adaptadas às necessidades específicas da Figueira da Foz."
     }
   ];
 
@@ -41,21 +41,21 @@ const Home = () => {
         
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6">
-            Liberdade e Progresso
+            Figueira para Todos
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
-            A Iniciativa Liberal em Figueira da Foz trabalha por uma cidade mais livre, 
+            A Iniciativa Liberal na Figueira da Foz trabalha por uma cidade mais livre, 
             próspera e com oportunidades para todos.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" asChild className="shadow-glow">
               <Link to="/program">
-                Verem Programa Político
+                Ver Programa Político
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild className="bg-background/10 backdrop-blur border-primary-foreground/30 text-primary-foreground hover:bg-background/20">
-              <Link to="/team">Conhecerem a Equipa</Link>
+              <Link to="/team">Conhecer a Equipa</Link>
             </Button>
           </div>
         </div>
@@ -70,7 +70,7 @@ const Home = () => {
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Baseamos o nosso trabalho em valores liberais que promovem a liberdade, 
-              responsabilidade e progresso para Figueira da Foz.
+              responsabilidade e progresso para a Figueira da Foz.
             </p>
           </div>
 
@@ -147,21 +147,21 @@ const Home = () => {
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Juntarem-se a Nós
+            Junta-te a Nós!
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Façam parte da mudança em Figueira da Foz. Juntos podemos construir 
+            Façam parte da mudança na Figueira da Foz. Juntos podemos construir 
             uma cidade mais livre e próspera.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild className="shadow-elegant">
               <Link to="/contact">
-                Entrarem em Contacto
+                Entrem em Contacto
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link to="/team">Saberem Mais</Link>
+              <Link to="/team">Saber Mais</Link>
             </Button>
           </div>
         </div>
