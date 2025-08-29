@@ -8,7 +8,7 @@ import teamPhoto from "@/assets/team-photo.jpg";
 const Team = () => {
   const teamMembers = [
     {
-      name: "João Silva",
+      name: "Manuel Carlos Soares~",
       role: "Coordenador Local",
       description: "Economista e empresário local, com vasta experiência em gestão pública e privada.",
       expertise: ["Economia", "Gestão Pública", "Empreendedorismo"],

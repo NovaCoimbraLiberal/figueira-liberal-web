@@ -48,7 +48,7 @@ const Footer = () => {
                 </a>
               </Button>
               <Button variant="outline" size="sm" asChild>
-                <a href="#" aria-label="Twitter">
+                <a href="https://x.com/JoHei13" aria-label="Twitter">
                   <Twitter className="h-4 w-4" />
                 </a>
               </Button>
@@ -58,7 +58,7 @@ const Footer = () => {
 
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-muted-foreground">
-            © 2024 Iniciativa Liberal Figueira da Foz. Todos os direitos reservados.
+            © 2025 Iniciativa Liberal Figueira da Foz. Todos os direitos reservados.
           </p>
         </div>
       </div>
