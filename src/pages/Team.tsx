@@ -159,19 +159,6 @@ const Team = () => {
                       ))}
                     </div>
                     
-                    {/* Contact Buttons */}
-                    <div className="flex space-x-2 pt-4">
-                      <Button variant="outline" size="sm" asChild>
-                        <a href={`mailto:${member.email}`} aria-label="Email">
-                          <Mail className="h-4 w-4" />
-                        </a>
-                      </Button>
-                      <Button variant="outline" size="sm" asChild>
-                        <a href={member.linkedin} aria-label="LinkedIn">
-                          <Linkedin className="h-4 w-4" />
-                        </a>
-                      </Button>
-                    </div>
                   </CardContent>
                 </Card>
               ))}
@@ -232,19 +219,6 @@ const Team = () => {
                           ))}
                         </div>
                         
-                        {/* Contact Buttons */}
-                        <div className="flex space-x-2 pt-4 justify-center">
-                          <Button variant="outline" size="sm" asChild>
-                            <a href={`mailto:${candidate.email}`} aria-label="Email">
-                              <Mail className="h-4 w-4" />
-                            </a>
-                          </Button>
-                          <Button variant="outline" size="sm" asChild>
-                            <a href={candidate.linkedin} aria-label="LinkedIn">
-                              <Linkedin className="h-4 w-4" />
-                            </a>
-                          </Button>
-                        </div>
                       </CardContent>
                     </Card>
                   ))}
@@ -286,19 +260,6 @@ const Team = () => {
                           ))}
                         </div>
                         
-                        {/* Contact Buttons */}
-                        <div className="flex space-x-2 pt-4">
-                          <Button variant="outline" size="sm" asChild>
-                            <a href={`mailto:${member.email}`} aria-label="Email">
-                              <Mail className="h-4 w-4" />
-                            </a>
-                          </Button>
-                          <Button variant="outline" size="sm" asChild>
-                            <a href={member.linkedin} aria-label="LinkedIn">
-                              <Linkedin className="h-4 w-4" />
-                            </a>
-                          </Button>
-                        </div>
                       </CardContent>
                     </Card>
                   ))}
