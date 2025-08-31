@@ -45,7 +45,7 @@ const Team = () => {
       description: "Estudante de Estudos Europeus na UC",
       expertise: ["Finanças Públicas", "Desenvolvimento Local"],
       linkedin: "#",
-      photo: "/placeholder.svg"
+      photo: "/lovable-uploads/34014e81-43c3-4749-8e9d-c15051c6593f.png"
     },
     {
       name: "Manuel Carlos Soares",
@@ -53,7 +53,7 @@ const Team = () => {
       description: "Consultor na àrea do Turismo",
       expertise: ["Turismo", "Gestão", "Empreendedorismo"],
       linkedin: "#",
-      photo: "/placeholder.svg"
+      photo: "/lovable-uploads/c158e20e-e988-403e-99af-880f1e0b1861.png"
     },
     {
       name: "Paulo Sousa",
