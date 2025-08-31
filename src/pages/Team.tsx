@@ -12,88 +12,105 @@ const Team = () => {
       role: "Coordenador Local",
       description: "Consultor na àrea do Turismo",
       expertise: ["Turismo", "Gestão", "Empreendedorismo"],
-      email: "",
       linkedin: "#"
     },
     {
-      name: "Maria Santos",
-      role: "Coordenadora de Políticas Sociais",
-      description: "Advogada especializada em direitos humanos e políticas sociais inclusivas.",
-      expertise: ["Direitos Humanos", "Políticas Sociais", "Legislação"],
-      email: "maria.santos@iniciativaliberal.pt",
+      name: "Paulo Sousa",
+      role: "Vice Coordenador",
+      description: "Licenciado em Comunicação Organizacional",
+      expertise: ["Ambiente", "Comunicação", "Marketing"],
       linkedin: "#"
     },
     {
-      name: "Pedro Costa",
-      role: "Responsável pelo Ambiente",
-      description: "Engenheiro ambiental comprometido com o desenvolvimento sustentável da região.",
-      expertise: ["Ambiente", "Sustentabilidade", "Energia"],
-      email: "pedro.costa@iniciativaliberal.pt",
-      linkedin: "#"
-    },
-    {
-      name: "Ana Rodrigues",
-      role: "Responsável pela Cultura",
-      description: "Gestora cultural com experiência em projectos de valorização do património local.",
-      expertise: ["Cultura", "Património", "Turismo"],
-      email: "ana.rodrigues@iniciativaliberal.pt",
-      linkedin: "#"
-    },
-    {
-      name: "Miguel Ferreira",
-      role: "Responsável pela Juventude",
-      description: "Jovem empreendedor focado em criar oportunidades para a juventude local.",
-      expertise: ["Juventude", "Inovação", "Tecnologia"],
-      email: "miguel.ferreira@iniciativaliberal.pt",
-      linkedin: "#"
-    },
-    {
-      name: "Teresa Lopes",
-      role: "Responsável pela Educação",
-      description: "Professora e investigadora em ciências da educação, defensora da qualidade no ensino.",
-      expertise: ["Educação", "Investigação", "Formação"],
-      email: "teresa.lopes@iniciativaliberal.pt",
+      name: "João Costa",
+      role: "Vogal",
+      description: "Estudante de Gestão",
+      expertise: ["Juventude", "Gestão"],
       linkedin: "#"
     }
   ];
 
   const municipalCandidates = [
     {
-      name: "Carlos Monteiro",
+      name: "João Pedro Cardoso",
       role: "Candidato à Câmara Municipal",
-      description: "Engenheiro civil e gestor com 20 anos de experiência em administração pública local.",
-      expertise: ["Gestão Municipal", "Obras Públicas", "Planeamento Urbano"],
-      email: "carlos.monteiro@iniciativaliberal.pt",
+      description: "Mestrado em Engenharia Eletrotécnica e de Computadores pelo IST. Arquiteto Cloud Sénior na NTT Data. Membro da Coordenação Local da IL Coimbra desde 2023",
+      expertise: ["Tecnologia", "Modernização", "Inteligência Artificial","Mobilidade"],
       linkedin: "#",
-      photo: "/placeholder.svg"
+      photo: "/src/assets/6336.jpg"
     },
     {
-      name: "Isabel Fernandes",
+      name: "Carolina Rouxinol",
       role: "Candidata #2",
-      description: "Economista especializada em finanças públicas e desenvolvimento económico local.",
-      expertise: ["Finanças Públicas", "Desenvolvimento Local", "Turismo"],
-      email: "isabel.fernandes@iniciativaliberal.pt",
+      description: "Estudante de Estudos Europeus na UC",
+      expertise: ["Finanças Públicas", "Desenvolvimento Local"],
       linkedin: "#",
       photo: "/placeholder.svg"
     },
     {
-      name: "Rui Pereira",
+      name: "Manuel Carlos Soares",
       role: "Candidato #3",
-      description: "Advogado com experiência em direito autárquico e políticas de habitação.",
-      expertise: ["Direito Autárquico", "Habitação", "Licenciamento"],
-      email: "rui.pereira@iniciativaliberal.pt",
+      description: "Consultor na àrea do Turismo",
+      expertise: ["Turismo", "Gestão", "Empreendedorismo"],
       linkedin: "#",
       photo: "/placeholder.svg"
-    }
+    },
+    {
+      name: "Paulo Jorge Carqueijeiro de Sousa",
+      role: "Candidato #4",
+      description: "Vendedor, Licenciado em Comunicação Organizacional",
+      expertise: ["Vendas", "Comércio", "Ambiente","Gestão"],
+      linkedin: "#",
+      photo: "/placeholder.svg"
+    },
+    {
+      name: "Fatima Elena Reis Simões",
+      role: "Candidata #5",
+      description: "Quadro superior grupo JM",
+      expertise: ["Gestão", "Administração", "Liderança"],
+      linkedin: "#",
+      photo: "/placeholder.svg"
+    },
+    {
+      name: "João Tomás Cadete Costa",
+      role: "Candidato #6",
+      description: "Estudante",
+      expertise: ["Educação", "Juventude", "Aprendizagem"],
+      linkedin: "#",
+      photo: "/placeholder.svg"
+    },
+    {
+      name: "Rodrigo Alexandre Lemos Maricato Cabete",
+      role: "Candidato #7",
+      description: "Técnico Industrial",
+      expertise: ["Indústria", "Técnica", "Processos"],
+      linkedin: "#",
+      photo: "/placeholder.svg"
+    },
+    {
+      name: "Vera Coutinho Visser",
+      role: "Candidata #8",
+      description: "Estudante",
+      expertise: ["Educação", "Juventude", "Aprendizagem"],
+      linkedin: "#",
+      photo: "/placeholder.svg"
+    },
+    {
+      name: "Alex Massimiliano Loda Bonadeo",
+      role: "Candidato #9",
+      description: "Professor",
+      expertise: ["Educação", "Ensino", "Línguas"],
+      linkedin: "#",
+      photo: "/placeholder.svg"
+    },
   ];
 
   const assemblyMembers = [
     {
-      name: "Ana Sousa",
-      role: "Candidata à Assembleia Municipal",
-      description: "Professora universitária especializada em ciência política e governação local.",
-      expertise: ["Ciência Política", "Governação Local", "Participação Cidadã"],
-      email: "ana.sousa@iniciativaliberal.pt",
+      name: "Paulo Sousa",
+      role: "Candidato à Assembleia Municipal",
+      description: "Vendedor, Licenciado em Comunicação Organizacional",
+      expertise: ["Vendas", "Comércio", "Ambiente","Gestão"],
       linkedin: "#",
       photo: "/placeholder.svg"
     }
@@ -108,7 +125,7 @@ const Team = () => {
             A Nossa Equipa
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            Conhecei as pessoas comprometidas em construir uma Figueira da Foz mais livre, 
+            Conheça as pessoas comprometidas em construir uma Figueira da Foz mais livre, 
             próspera e com oportunidades para todos.
           </p>
         </div>
@@ -167,7 +184,7 @@ const Team = () => {
             {/* Join Us Section */}
             <div className="mt-16 text-center bg-gradient-subtle rounded-xl p-8 shadow-elegant">
               <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-                Quereis Juntar-vos à Nossa Coordenação?
+                Querem Juntar-se à Nossa Coordenação?
               </h2>
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
                 Estamos sempre à procura de pessoas comprometidas com os valores liberais 
@@ -175,7 +192,7 @@ const Team = () => {
               </p>
               <Button size="lg" asChild className="shadow-elegant">
                 <a href="mailto:figueiradafoz@liberal.pt">
-                  Contactai-nos
+                  Contacta-nos
                   <Mail className="ml-2 h-5 w-5" />
                 </a>
               </Button>
