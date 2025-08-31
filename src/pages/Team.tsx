@@ -117,7 +117,7 @@ const Team = () => {
             {/* Team Photo */}
             <div className="relative max-w-4xl mx-auto mb-12">
               <img 
-                src={teamPhoto} 
+                src="/lovable-uploads/04dbe6b2-2d16-4151-84a5-ac69f1bd8bd3.png" 
                 alt="Coordenação da Iniciativa Liberal Figueira da Foz"
                 className="w-full h-[400px] object-cover rounded-xl shadow-elegant"
               />
