@@ -18,7 +18,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-muted-foreground mb-4">
-              Promovendo liberdade económica, social e política em Figueira da Foz.
+              Promovendo liberdade económica, social e política na Figueira da Foz.
             </p>
           </div>
 
