@@ -77,7 +77,7 @@ const Team = () => {
       description: "Estudante",
       expertise: ["Educação", "Juventude", "Aprendizagem"],
       linkedin: "#",
-      photo: "/placeholder.svg"
+      photo: "/lovable-uploads/d91ecdbc-38e7-4e80-a020-194a877b5bac.png"
     },
   ];
 
