@@ -37,7 +37,7 @@ const Team = () => {
       description: "Mestrado em Engenharia Eletrotécnica e de Computadores pelo IST. Arquiteto Cloud Sénior na NTT Data. Membro da Coordenação Local da IL Coimbra desde 2023",
       expertise: ["Tecnologia", "Modernização", "Inteligência Artificial","Mobilidade"],
       linkedin: "#",
-      photo: "/src/assets/6336.jpg"
+      photo: "/lovable-uploads/42ed592f-a8fc-419a-afd7-2ca981214b72.png"
     },
     {
       name: "Carolina Rouxinol",
