@@ -79,30 +79,6 @@ const Team = () => {
       linkedin: "#",
       photo: "/placeholder.svg"
     },
-    {
-      name: "Rodrigo Alexandre Lemos Maricato Cabete",
-      role: "Candidato #7",
-      description: "Técnico Industrial",
-      expertise: ["Indústria", "Técnica", "Processos"],
-      linkedin: "#",
-      photo: "/placeholder.svg"
-    },
-    {
-      name: "Vera Coutinho Visser",
-      role: "Candidata #8",
-      description: "Estudante",
-      expertise: ["Educação", "Juventude", "Aprendizagem"],
-      linkedin: "#",
-      photo: "/placeholder.svg"
-    },
-    {
-      name: "Alex Massimiliano Loda Bonadeo",
-      role: "Candidato #9",
-      description: "Professor",
-      expertise: ["Educação", "Ensino", "Línguas"],
-      linkedin: "#",
-      photo: "/placeholder.svg"
-    },
   ];
 
   const assemblyMembers = [
