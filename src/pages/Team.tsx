@@ -8,11 +8,11 @@ import teamPhoto from "@/assets/team-photo.jpg";
 const Team = () => {
   const teamMembers = [
     {
-      name: "Manuel Carlos Soares~",
+      name: "Manuel Carlos Soares",
       role: "Coordenador Local",
-      description: "Economista e empresário local, com vasta experiência em gestão pública e privada.",
-      expertise: ["Economia", "Gestão Pública", "Empreendedorismo"],
-      email: "joao.silva@iniciativaliberal.pt",
+      description: "Consultor na àrea do Turismo",
+      expertise: ["Turismo", "Gestão", "Empreendedorismo"],
+      email: "",
       linkedin: "#"
     },
     {
