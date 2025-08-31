@@ -88,7 +88,7 @@ const Team = () => {
       description: "Vendedor, Licenciado em Comunicação Organizacional",
       expertise: ["Vendas", "Comércio", "Ambiente","Gestão"],
       linkedin: "#",
-      photo: "/placeholder.svg"
+      photo: "/lovable-uploads/77cb4955-fd71-41b7-bdfd-8aa467088a99.png"
     }
   ];
 
