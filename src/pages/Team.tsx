@@ -56,12 +56,12 @@ const Team = () => {
       photo: "/placeholder.svg"
     },
     {
-      name: "Paulo Jorge Carqueijeiro de Sousa",
+      name: "Paulo Sousa",
       role: "Candidato #4",
       description: "Vendedor, Licenciado em Comunicação Organizacional",
       expertise: ["Vendas", "Comércio", "Ambiente","Gestão"],
       linkedin: "#",
-      photo: "/placeholder.svg"
+      photo: "/lovable-uploads/77cb4955-fd71-41b7-bdfd-8aa467088a99.png"
     },
     {
       name: "Fatima Elena Reis Simões",
