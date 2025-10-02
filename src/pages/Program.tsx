@@ -64,14 +64,15 @@ const Program = () => {
     },
     {
       icon: <Building className="h-6 w-6" />,
-      title: "Ordenamento e Território",
+      title: "Habitação e Território",
       priority: "Média",
       measures: [
         "Liberalização de terrenos para construção habitacional",
         "Programa municipal de arrendamento jovem",
         "Planeamento urbano sustentável",
         "Melhoria da eficiência energética dos edifícios públicos",
-        "Criação de espaços de coworking municipais"
+        "Criação de espaços de coworking municipais",
+        "Criação de Residencias estudantis para acompanhar as necessidades do campus da Figueira da Foz da Universidade de Coimbra"
       ]
     },
     {
