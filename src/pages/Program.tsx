@@ -26,7 +26,8 @@ const Program = () => {
         "Estacionamento regulado com as operadoras privadas para as trotinetes",
         "Estudo de custos e logistica de operação para sistema bike sharing na Figueira (ou abrir a operadores privados)",
         "Park & Ride para a Estação Ferroviária, ou seja mais estacionamento para que os figueirenses possam estacionar e usar os transportes públicos ferroviarios e rodoviários e para reduzir a pressão turistica rodoviária na cidade",
-        "Trabalhar com o agrupamento escolar para soluções do problema da mobilidade/transito nas suas escolas especialmente em horas de ponta - sistema kiss and ride, redução de estacionamento público em prol de trabalhadores da escola, etc"
+        "Trabalhar com o agrupamento escolar para soluções do problema da mobilidade/transito nas suas escolas especialmente em horas de ponta - sistema kiss and ride, redução de estacionamento público em prol de trabalhadores da escola, etc",
+        "Passe Municipal e Regional para Transportes Públicos com a possibilidade de no futuro ter o sistema de bike sharing incluído no passe"
       ]
     },
     {
@@ -38,7 +39,12 @@ const Program = () => {
         "Criação de um balcão único digital para serviços empresariais",
         "Incentivos fiscais para startups e PMEs",
         "Programa de mentoria para jovens empreendedores",
-        "Apoio à criação de postos de trabalho locais"
+        "Apoio à criação de postos de trabalho locais",
+        "Redução da taxa de participação do IRS em 0.5% ao ano",
+        "Redução da taxa municipal de IRC em 0.25% ao ano",
+        "Redução de burocracia através da fusão de regulamentos da CMFF num documento simples, indexado e pesquisável",
+        "Otimizações dos processos de gestão para que os prazos da câmara sejam cumpridos utilizando novas ferramentas e reduzindo bottlenecks no trabalho dos nossos funcionários públicos",
+        "Redução de Taxas e taxinhas municipais, propondo a remoção de taxas inferiores a 10€ e agregando o máximo possivel nas restantes"
       ]
     },
     {
