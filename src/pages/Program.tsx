@@ -54,9 +54,12 @@ const Program = () => {
       measures: [
         "Portal da transparência municipal com dados abertos",
         "Digitalização completa dos serviços municipais",
-        "WiFi gratuito em espaços públicos",
-        "App municipal para cidadãos",
-        "Orçamento participativo digital"
+        "Gravação e publicação das sessões da assembleia municipal",
+        "Relatório Anual simplificado das contas da CMFF para os municipes",
+        "Portal da Transparência com tempos de resposta aos municipes adequado ao tema, em função de uma classificação de urgência, importância e complexidade",
+        "Divulgar anualmente o registo de interesses de todos os membros eleitos da Câmara Municipal",
+        "Divulgar Anualmente, as métricas da CMFF em relação a pedidos (aprovações, certidões,etc), quantos pedidos excederam o tempo máximo de resposta permitido na lei e o tempo médio por tipo de pedido",
+        "Criação do Portal das Associações/Coletividade para facilitar as candidaturas a fundos municipais e criar uma ponte com as associações culturais e desportivas do nosso concelho para colaborações de eventos, publicidade, etc"
       ]
     },
     {
