@@ -35,7 +35,7 @@ const Contact = () => {
                   frameBorder="0"
                   marginHeight={0}
                   marginWidth={0}
-                  src="https://forms.office.com/Pages/ResponsePage.aspx?id=YOUR_FORM_ID_HERE"
+                  src="hhttps://forms.gle/EjZ4EqaX58ckRov56"
                   title="Formulário de Contacto"
                   className="border-0"
                 >
