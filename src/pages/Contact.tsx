@@ -19,7 +19,7 @@ const Contact = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Microsoft Forms Widget */}
+          {/* Google Forms Widget */}
           <Card className="shadow-elegant">
             <CardHeader>
               <CardTitle className="text-2xl">Envie-nos uma Mensagem</CardTitle>
@@ -35,7 +35,7 @@ const Contact = () => {
                   frameBorder="0"
                   marginHeight={0}
                   marginWidth={0}
-                  src="hhttps://forms.gle/EjZ4EqaX58ckRov56"
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSf7EjZ4EqaX58ckRov56_converted_id/viewform?embedded=true"
                   title="Formulário de Contacto"
                   className="border-0"
                 >
@@ -43,7 +43,7 @@ const Contact = () => {
                 </iframe>
               </div>
               <p className="text-sm text-muted-foreground mt-4 text-center">
-                Substitua YOUR_FORM_ID_HERE pelo URL do vosso Microsoft Forms
+                Estamos sempre a ouvir!
               </p>
             </CardContent>
           </Card>
