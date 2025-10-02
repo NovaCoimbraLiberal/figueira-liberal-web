@@ -41,7 +41,7 @@ const Home = () => {
         
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6">
-            Figueira para Todos
+            Figueira para Todos 
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
             A Iniciativa Liberal na Figueira da Foz trabalha por uma cidade mais livre, 

@@ -35,7 +35,7 @@ const Contact = () => {
                   frameBorder="0"
                   marginHeight={0}
                   marginWidth={0}
-                  src="https://docs.google.com/forms/d/e/1FAIpQLSf7EjZ4EqaX58ckRov56_converted_id/viewform?embedded=true"
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSdC027AvQhtywJDqdLKdA-5emw8BbZYi83DZeqXkB2RIRF1Uw/viewform?usp=dialog"
                   title="Formulário de Contacto"
                   className="border-0"
                 >
