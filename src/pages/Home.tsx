@@ -101,20 +101,22 @@ const Home = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Próximos Eventos
+              Evento
             </h2>
             <p className="text-xl text-muted-foreground">
-              Não percam os nossos próximos eventos e iniciativas em Figueira da Foz.
+              Apresentámos os nossos candidatos e as ideias para a Figueira da Foz.
             </p>
           </div>
 
-          <Card className="shadow-elegant hover:shadow-glow transition-all duration-300 max-w-2xl mx-auto">
+          <Card className="shadow-elegant hover:shadow-glow transition-all duration-300 max-w-2xl mx-auto overflow-hidden">
+            <div className="aspect-video w-full overflow-hidden">
+              <img 
+                src="/lovable-uploads/evento-apresentacao.jpg" 
+                alt="Apresentação do Programa Eleitoral e dos Candidatos da Iniciativa Liberal Figueira da Foz"
+                className="w-full h-full object-cover"
+              />
+            </div>
             <CardHeader>
-              <div className="flex items-center justify-center mb-4">
-                <div className="bg-gradient-hero p-3 rounded-full">
-                  <Calendar className="h-6 w-6 text-primary-foreground" />
-                </div>
-              </div>
               <CardTitle className="text-center text-2xl">
                 Apresentação do Programa Eleitoral e dos Candidatos
               </CardTitle>
@@ -123,7 +125,7 @@ const Home = () => {
               <div className="flex items-center justify-center space-x-6 text-muted-foreground">
                 <div className="flex items-center space-x-2">
                   <Calendar className="h-4 w-4" />
-                  <span>6 de Setembro</span>
+                  <span>25 de Setembro</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Clock className="h-4 w-4" />
@@ -135,8 +137,8 @@ const Home = () => {
                 </div>
               </div>
               <CardDescription className="text-center text-base">
-                Venham conhecer as nossas propostas para Figueira da Foz e os candidatos 
-                que irão representar a Iniciativa Liberal nas próximas eleições.
+                Apresentámos as nossas propostas para a Figueira da Foz e os candidatos 
+                que representam a Iniciativa Liberal nas eleições autárquicas.
               </CardDescription>
             </CardContent>
           </Card>
