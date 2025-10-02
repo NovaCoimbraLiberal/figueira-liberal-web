@@ -58,7 +58,7 @@ const Team = () => {
     {
       name: "Paulo Sousa",
       role: "Candidato #4",
-      description: "Vendedor, Licenciado em Comunicação Organizacional",
+      description: "Natural da Figueira, 48 anos, Licenciado em Comunicação Organizacional e exerce atualmente funções na área comercial, no setor das tintas",
       expertise: ["Vendas", "Comércio", "Ambiente","Gestão"],
       linkedin: "#",
       photo: "/lovable-uploads/77cb4955-fd71-41b7-bdfd-8aa467088a99.png"
@@ -85,7 +85,7 @@ const Team = () => {
     {
       name: "Paulo Sousa",
       role: "Candidato à Assembleia Municipal",
-      description: "Vendedor, Licenciado em Comunicação Organizacional",
+      description: "Natural da Figueira, 48 anos, Licenciado em Comunicação Organizacional e exerce atualmente funções na área comercial, no setor das tintas",
       expertise: ["Vendas", "Comércio", "Ambiente","Gestão"],
       linkedin: "#",
       photo: "/lovable-uploads/77cb4955-fd71-41b7-bdfd-8aa467088a99.png"
