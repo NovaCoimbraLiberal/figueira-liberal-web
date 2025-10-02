@@ -72,7 +72,10 @@ const Program = () => {
         "Planeamento urbano sustentável",
         "Melhoria da eficiência energética dos edifícios públicos",
         "Criação de espaços de coworking municipais",
-        "Criação de Residencias estudantis para acompanhar as necessidades do campus da Figueira da Foz da Universidade de Coimbra"
+        "Criação de Residencias estudantis para acompanhar as necessidades do campus da Figueira da Foz da Universidade de Coimbra",
+        "Reabilitação urbana com incentivos fiscais para proprietários que renovem imóveis degradados",
+        "Promoção de habitação acessível através de parcerias público-privadas com foco em especial nos jovens e idosos",
+        "Revisão do Plano Diretor Municipal (PDM) para garantir um crescimento ordenado e sustentável do território"
       ]
     },
     {
@@ -84,7 +87,9 @@ const Program = () => {
         "Programa de formação digital para jovens",
         "Parcerias com universidades para estágios locais",
         "Criação de espaços de estudo e coworking para estudantes",
-        "Bolsas de estudo para estudantes carenciados"
+        "Bolsas de estudo para estudantes carenciados",
+        "Programas de atração de jovens talentos para a Figueira da Foz",
+        "Promoção de atividades extracurriculares em cooperação com associações e coletividades locais"
       ]
     },
     {
