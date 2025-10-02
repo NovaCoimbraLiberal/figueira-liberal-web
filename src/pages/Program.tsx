@@ -9,11 +9,9 @@ const Program = () => {
       title: "Ambiente e Sustentabilidade",
       priority: "Alta",
       measures: [
-        "Programa de energia solar em edifícios públicos",
-        "Expansão da recolha seletiva de resíduos",
-        "Criação de hortas urbanas comunitárias",
-        "Proteção e valorização da orla costeira",
-        "Incentivos para veículos elétricos"
+        "Foco na sustentabilidade e garantir que empresas seguem as práticas ambientais especialmente onde a poluição se concentra na margem sul da Figueira",
+        "Proteção e valorização da orla costeira com pressão politica para a obra do bypass que o Estado Central prometeu à Figueira da Foz para solucionar o problema da erosão costeira no sul do concelho",
+        "Valorização do Espaço verde nas ruas e zonas de lazer da nossa cidade"
       ]
     },
     {
@@ -22,10 +20,13 @@ const Program = () => {
       priority: "Alta",
       measures: [
         "Expansão da rede de ciclovias",
-        "Melhoria dos transportes públicos urbanos",
-        "Revitalização do centro histórico",
-        "Implementação de sistema de partilha de bicicletas",
-        "Otimização dos semáforos com tecnologia inteligente"
+        "Reforma total dos transportes públicos na Figueira com a entrada no CIM/SIT com novas linhas de transportes com a centralidade na Estação Ferroviária",
+        "Investimento nos abrigos de autocarros com paineis digitais com as linhas e tempos de espera nas zonas urbanas e nas zonas rurais informação com um QR Code para uma web app da CMFF que inclui toda a informação em tempo real, tempos de espera e avisos (e.g problemas no serviço, redução de horários por feriados, etc)",
+        "Mais estacionamento de bicicletas",
+        "Estacionamento regulado com as operadoras privadas para as trotinetes",
+        "Estudo de custos e logistica de operação para sistema bike sharing na Figueira (ou abrir a operadores privados)",
+        "Park & Ride para a Estação Ferroviária, ou seja mais estacionamento para que os figueirenses possam estacionar e usar os transportes públicos ferroviarios e rodoviários e para reduzir a pressão turistica rodoviária na cidade",
+        "Trabalhar com o agrupamento escolar para soluções do problema da mobilidade/transito nas suas escolas especialmente em horas de ponta - sistema kiss and ride, redução de estacionamento público em prol de trabalhadores da escola, etc"
       ]
     },
     {
